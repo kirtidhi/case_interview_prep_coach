@@ -1,46 +1,18 @@
 # Case Interview Prep Coach
 
-A comprehensive repository for tech interview preparation, sourcing automation, and coaching frameworks. Synthesized from industry-leading methodologies.
+A generalized, open-source system designed to help users prepare for tech and business case interviews. This repository contains AI system prompts, generalized frameworks, and curriculum structures that can be used by any AI agent to act as a personalized interview coach.
 
-## Table of Contents
-- [Curriculum](#curriculum)
-- [Scrapers](#scrapers)
-- [Coaching](#coaching)
+## How it Works
 
-## Installation
-
-### For Manual Users
-Clone the repository:
-```bash
-git clone https://github.com/kirtidhi/case_interview_prep_coach.git
-cd case_interview_prep_coach
-```
-
-### For AI Agents and CLI Users
-An AI Agent can install this repository into your workspace. Once installed, the agent will have access to all the comprehensive frameworks, rubrics, and methodologies contained within. You can then simply ask the agent to initiate a practice session, and it will act as your interactive case interview coach!
+An AI Agent can install this repository into your workspace. Once installed, the agent will load the `system_prompt.md` and use the generalized frameworks in the `curriculum/` folder to conduct interactive, real-time mock interviews with you.
 
 ## Modules
 
-### Curriculum
-Contains structured notes and playbooks for various roles:
-- **Business Operations:** Business Strategy, Operational Metrics, Estimation.
-- **Forward Deployed Engineering:** Forward Deployed Engineering guides.
-- **Growth Framework:** Job Acquisition Method and Growth Framework.
-- **Operations Rubrics:** Internal rubrics and preparation guides for Product Operations.
+- **Coaching**: Contains the core AI System Prompt that defines the persona, behavior, and evaluation criteria for the mock interviewer.
+- **Curriculum**: Contains standard, industry-agnostic case interview frameworks (e.g., Strategy, Operations, Product Design) that the AI can test you on.
+- **Scrapers**: Placeholder directory for future tools to source public interview questions.
 
-### Scrapers
-Automation scripts for sourcing and analyzing jobs:
-- Sourcing automation (`source_all_companies.js`)
-- Dynamic ATS job scraping
+## Installation
 
-### Coaching
-Frameworks and mock simulator guidelines:
-- CIRCLES, BUS, North Star Metric hierarchies.
-- Real-time AI coaching simulator prompts.
-
-## Roadmap
-- Integrate vector RAG database for quick framework retrieval.
-- Add additional tech industry interview rubrics.
-
-## License
-MIT License
+### For AI Agents
+Ask your agent to fetch this repository, read the `coaching/system_prompt.md`, and initiate a practice session.
